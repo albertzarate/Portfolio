@@ -182,6 +182,16 @@ header a:hover{
   width:200px;
 }
 
+#projects a{
+  color: #ffa133;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#projects a:hover{
+  color: #ffd29e;
+}
+
 /* footer */
 footer{
   padding:20px;
