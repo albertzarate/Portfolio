@@ -78,13 +78,14 @@ header a:hover{
 
 /* showcase */
 #showcase{
-  min-height: 400px;
+  min-height: 280px;
   background: url('../img/motherboard-background.png') no-repeat 0 -400px;
   text-align:center;
+  padding: 0 0 40px 0;
 }
 
 #showcase h1{
-  margin-top:100px;
+  margin-top:40px;
   font-size:55px;
   margin-bottom:10px;
 }
@@ -112,6 +113,20 @@ header a:hover{
   width:250px;
 }
 
+/* contact info section */
+#contact{
+  padding: 15px;
+  background: #808080;
+}
+#contact h1{
+  margin-top:10px;
+  font-size:40px;
+  margin-bottom:10px;
+}
+#contact p{
+  font-size:17px;
+}
+
 /* site implementation boxes*/
 #boxes{
   margin-top:20px;
@@ -135,6 +150,20 @@ header a:hover{
 #boxes .box img{
   width:90px;
 }
+
+/* textsection */
+#textsection{
+  margin-top:20px;
+}
+
+#textsection .section{
+  margin: 0 auto;
+  text-align: center;
+  width:80%;
+  padding:10px;
+}
+
+
 
 /* footer */
 footer{
