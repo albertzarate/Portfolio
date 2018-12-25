@@ -174,12 +174,12 @@ header a:hover{
 #projects .box{
   display: inline-block;
   text-align: center;
-  width:30%;
+  width:48%;
   padding:10px;
 }
 
 #projects .box img{
-  width:200px;
+  width:330px;
 }
 
 #projects a{
@@ -198,4 +198,28 @@ footer{
   margin-top:20px;
   background-color:#e8491e;
   text-align: center;
+}
+
+/* light theme */
+.light{
+  padding: 15px;
+  background: #E3E3E3;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* mobile */
+@media(max-width: 930px){
+  header nav,
+  header nav li,
+  #subscribe h1,
+  #subscribe form,
+  #boxes .box,
+  #projects .box
+  {
+    float:none;
+    text-align:center;
+    width:95%;
+  }
 }
