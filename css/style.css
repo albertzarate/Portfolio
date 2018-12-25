@@ -212,8 +212,15 @@ footer{
 
 /* mobile */
 @media(max-width: 930px){
+  /* header a, */
   header nav,
-  header nav li,
+  header nav li
+  {
+    float:none;
+    text-align:center;
+    width:100%;
+    padding: 0 8px 0 8px;
+  }
   #subscribe h1,
   #subscribe form
   {
