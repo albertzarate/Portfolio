@@ -214,12 +214,18 @@ footer{
   header nav,
   header nav li,
   #subscribe h1,
-  #subscribe form,
+  #subscribe form
+  {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
   #boxes .box,
   #projects .box
   {
     float:none;
     text-align:center;
-    width:95%;
+    width:94%;
   }
 }
