@@ -79,7 +79,8 @@ header a:hover{
 /* showcase */
 #showcase{
   min-height: 280px;
-  background: url('../img/motherboard-background.png') no-repeat 0 -400px;
+  background: url('../img/motherboard-background.png') no-repeat center;
+  background-size: cover;
   text-align:center;
   padding: 0 0 40px 0;
 }
