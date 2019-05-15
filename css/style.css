@@ -132,6 +132,20 @@ header a:hover{
   font-size:17px;
 }
 
+/* internships section */
+#internships{
+  padding: 15px;
+  background: #808080;
+}
+#internships h1{
+  margin-top:10px;
+  font-size:40px;
+  margin-bottom:10px;
+}
+#internships p{
+  font-size:17px;
+}
+
 /* site implementation boxes*/
 #boxes{
   margin-top:20px;
