@@ -132,17 +132,17 @@ header a:hover{
   font-size:17px;
 }
 
-/* internships section */
-#internships{
+/* experience section */
+#experience{
   padding: 15px;
   background: #808080;
 }
-#internships h1{
+#experience h1{
   margin-top:10px;
   font-size:40px;
   margin-bottom:10px;
 }
-#internships p{
+#experience p{
   font-size:17px;
 }
 
